@@ -51,13 +51,13 @@ local Options = Fluent.Options
 do
     Tabs.Discord:AddButton(
         {
-            Title = "Copy Link Discord truongRoblox",
+            Title = "Link Discord truongRoblox",
             Description = "https://discord.com/invite/Ja5fy7cB",
             Callback = function()
                 setclipboard("https://discord.com/invite/Ja5fy7cB")
                 Fluent:Notify(
                     {
-                        Title = "TRUONG",
+                        Title = "NokiHub",
                         Content = "Copied!",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
@@ -69,12 +69,12 @@ do
     Tabs.Discord:AddButton(
         {
             Title = "Copy Link",
-            Description = "truong",
+            Description = "NokiHub",
             Callback = function()
                 setclipboard("Truong")
                 Fluent:Notify(
                     {
-                        Title = "TRUONG",
+                        Title = "NokiHub",
                         Content = "Copied!",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
