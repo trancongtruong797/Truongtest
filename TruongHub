@@ -24,7 +24,7 @@ local InterfaceManager =
 local Window =
     Fluent:CreateWindow(
     {
-        Title = "NokiRoblox Hub",
+        Title = "NokiHub",
         SubTitle = "Create and TruongRoblox",
         TabWidth = 160,
         Size = UDim2.fromOffset(530, 350),
@@ -57,7 +57,7 @@ do
                 setclipboard("https://discord.com/invite/Ja5fy7cB")
                 Fluent:Notify(
                     {
-                        Title = "TRUONG Hub",
+                        Title = "TRUONG",
                         Content = "Copied!",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
@@ -69,12 +69,12 @@ do
     Tabs.Discord:AddButton(
         {
             Title = "Copy Link",
-            Description = "truong Roblox ",
+            Description = "truong",
             Callback = function()
-                setclipboard("Trường Roblox ")
+                setclipboard("Truong")
                 Fluent:Notify(
                     {
-                        Title = "TRUONG HUB",
+                        Title = "TRUONG",
                         Content = "Copied!",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
